@@ -1,0 +1,48 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit startup logs (not part of the project)
+streamlit_startup.log
+streamlit_startup_err.log
+
+# OS artefacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / distribution
+dist/
+build/
+*.egg-info/
+
+# NOTE: data/ and models/ are intentionally tracked.
+# The raw CSV, processed CSV, and trained model artifact are required
+# to run the application without retraining. Do not ignore them.
